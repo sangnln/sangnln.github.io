@@ -1,81 +1,541 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Lighthouse Island Bistro</title>
-<meta charset="utf-8">
-<style>
-* { box-sizing; border-box; }
-body {font-family:Verdana, Arial, sans-serif;
-      background-color: #00005D;
-}
-#wrapper { background-color: #b3c7e6; 
-           color: #000066;
-           width: 80%;
-		   margin: auto;
-           min-width:940px;
-} 
-nav { float: left;
-	  width: 150px;
-} 
-main { margin-left: 155px;
-       background-color: #ffffff;
-       color: #000000;
-} 
-header { background-color: #869dc7;
-        color: #00005D; 
-        font-size: 150%; 
-        padding: 10px 10px 10px 155px;
-		background-image: url(lighthouselogo.jpg); 
-		background-repeat: no-repeat;
-		height: 130px;
-}
+	<title>Global Internship</title>
+	<meta charset="utf-8">
+	<!-- all css here -->
 
-h2 { color: #869dc7; 
-     font-family: arial, sans-serif;
-}
-.content {padding: 20px 20px 0 20px; 
-} 
-main { display: block; }
-#floatright { margin: 10px;
-             float: right;
-}
-
-footer { font-size:70%;
-         text-align: center;
-		 clear: right;
-         padding-bottom:20px;
-}
-</style> 
+		<!-- bootstrap v3.3.6 css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- font-awesome css -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- Icon css -->
+		<link rel="stylesheet" href="css/icon.css">
+		<!-- style css -->
+		<link rel="stylesheet" href="style.css">
+		<!-- responsive css -->
+		<link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-<div id="wrapper">
-  <header>
-    <h1>Lighthouse Island Bistro</h1>
-  </header>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="rooms.html">Menu</a>
-      <a href="directions.html">Directions</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  <main>
-    <div class="content"> 
-      <img src="lighthouseisland.jpg" width="250" height="355" id="floatright" alt="Lighthouse Island">
-	<h2>Locally Roasted Free-Trade Coffee</h2>
-    <p>Indulge in the aroma of freshly ground roast coffee. Specialty drinks are available hot or cold.</p>
-    <h2>Specialty Pastries</h2>
-    <p>Enjoy a selection of our fresh-baked, organic pastries, including 
-  fresh-fruit muffins, scones, croissants, and cinnamon rolls.</p>
-  	<h2>Lunchtime is Anytime</h2>
-    <p>Savor delicious wraps and sandwiches on hearty, whole-grain breads with locally-grown salad, fruit, and vegetables. </p>
-    <h2>Panoramic View</h2>
-	<p>Take in some scenery! The top of our lighthouse offers a panoramic view of the countryside. Challenge your friends to climb our 100-stair tower.</p>
+<!--Start Header-->
+	<body class="slide_menu slide-top" data-spy="scroll" data-target="#navbar-example">
+		<!--[if lt IE 8]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<div id="preloader"></div>
+        <header>
+            <!--Start Header-->
+		<div id="header">
+			<div class="clearfix">
+				<div class="logo">
+					<a href="index.html"><img src="img/logo/gta-logo.png" alt="LOGO" height="46" width="140"></a>
+				</div>
+				<ul class="navigation">
+					<li class="active">
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="students.html">For Students</a>
+					</li>
+					<li>
+						<a href="companies.html">For Companies</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--End Header-->
+	<!--Start Banner Area-->
+	<div id="content">
+		<div id="adbox">
+			<div class="clearfix">
+				<div class="detail">
+					<div class="intro-content text-center">
+						<h3 class="title1">Global Internship</h3>
+                            <h1 class="title2">Intern with <span class="color">us</span></h1>
+                                <p>Develop yourself through a cross-cultural experience abroad.
+								<br>Work towards a cause you care about and for your personal and professional development.</p>
+								<div class="button">
+									<a class="btn" href="#">Contact us</a>
+								</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--End Banner Area-->
+	<!-- Start About Area -->	
+	<div class="clearfix">
+		<div id="about" class="about-area area-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="section-head text-center">
+							<h3>We are <span class="color">professional</span></h3>
+								<p>We desire to bring the best service for all interns and businesses</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="about-image">
+							<img src="img/about/ab.jpg" alt="images" class="about-img">
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="about-inner">
+							<div class="contact-icon">
+								<div class="single-contact">
+									<i class="fa fa-group"></i><span><b> Companies want international talent</b></span>
+										<p>You can gain experience in new cross-cultural settings, <br>equip yourself with new skills and add value to your workplace.</p>
+									<i class="fa fa-suitcase"></i><span><b> Find the industry for you</b></span>
+										<p>Our pool of opportunities are growing across fields - <br>we're sure you'll find one best fitting your background and experiences.</p>
+									<i class="fa fa-envelope"></i><span><b> Gain a professional edge</b></span>	
+										<p>Our partners are dedicated to providing you with <br>an enriching leadership experience sure to put you ahead of your peers.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<!-- End About Area -->
+	    <!-- Start Testimonial Area -->
+		<div class="testimonial-area area-padding parallax-bg fix" data-stellar-background-ratio="0.6">
+            <div class="display-table">
+                <div class="display-table-cell">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<div class="section-head white-head text-center">
+									<h3>Clients <span class="color">say</span></h3>
+									<p>We desire to bring the best service for all interns and businesses</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<!-- Testimonials Part -->
+							<div class=" col-md-offset-1 col-md-10 col-sm-12 col-xs-12">
+								<div class="review-area">
+									<div class="Reviews-content">
+										<!-- start testimonial carousel -->
+										<div class="testimonial-carousel item-indicator">
+											<div class="single-testimonial">
+												<div class="testimonial-text">
+													<p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical. Due to its widespread use as filler text for layouts, non-readability is of great importance.</p>
+												</div>
+												<div class="testimonial-img ">
+													<img src="img/review/1.jpg" alt="">
+													<div class="client-name">
+														<h4>Arnold russel</h4>
+														<span>Genarel Manager</span>
+													</div>
+												</div>
+											</div>
+											<!-- End single item -->
+											<div class="single-testimonial ">
+												<div class="testimonial-text">
+													<p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical. Due to its widespread use as filler text for layouts, non-readability is of great importance.</p>
+												</div>
+												<div class="testimonial-img ">
+													<img src="img/review/2.jpg" alt="">
+													<div class="client-name">
+														<h4>Charlotte</h4>
+														<span>Manager</span>
+													</div>
+												</div>
+											</div>
+											<!-- End single item -->
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--End Testimonials Part -->
+						</div>
+					</div>
+			    </div>
+			</div>
+        </div>
+		<!-- End Testimonial Area -->
+	<!-- Welcome service area start -->		
+    <div class="welcome-area area-padding">
+		<div class="container">
+            <div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="section-head text-center">
+						<h3>Featured <span class="color">experiences</span></h3>
+						<p>I am always passionate about website development. Love provide great client support. If you want any work please contact us</p>
+					</div>
+				</div>
+			</div>
+            <div class="row">
+				<div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="well-features">
+                        <div class="main-features text-center">
+							<div class="features-img">
+								<a href="jobs.html"><i class="icon icon-diamond"></i></a>
+							</div>
+							<div class="features-content">
+								<h4>Grapic Design</h4>
+									<p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu.</p>
+							</div>
+								<div class="image-layer">
+									<a href="jobs.html"><i class="icon icon-picture"></i>Branding</a>
+									<a href="jobs.html"><i class="icon icon-crop"></i>Web design</a>
+									<a href="jobs.html"><i class="icon icon-camera"></i>Photoshop</a>
+									<a href="jobs.html"><i class="icon icon-pencil"></i>Print design</a>
+								</div>
+							</div>
+                        </div>
+                    </div>
+               
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="well-features">
+                        <div class="main-features text-center">
+							<div class="features-img">
+								<a href="jobs.html"><i class="icon icon-laptop-phone"></i></a>
+							</div>
+							<div class="features-content">
+								<h4>Web Development</h4>
+								<p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu.</p>
+							</div>
+							<div class="image-layer">
+								<a href="jobs.html"><i class="icon icon-laptop"></i>Website</a>
+								<a href="jobs.html"><i class="icon icon-laptop-phone"></i>Web application</a>
+								<a href="jobs.html"><i class="icon icon-cog"></i>Web security</a>
+								<a href="jobs.html"><i class="icon icon-eye"></i>Search Engine</a>
+							</div>
+						</div>
+                    </div>
+                </div>    
+                    <!-- single-well end-->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="well-features">
+                           <div class="main-features text-center">
+								<div class="features-img">
+									<a href="jobs.html"><i class="icon icon-chart-bars"></i></a>
+								</div>
+								<div class="features-content">
+									<h4>Marketing</h4>
+									<p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu.</p>
+								</div>
+								<div class="image-layer">
+									<a href="jobs.html"><i class="icon icon-magic-wand"></i>Digital strategy</a>
+									<a href="jobs.html"><i class="icon icon-database"></i>Customer analytics</a>
+									<a href="jobs.html"><i class="icon icon-envelope"></i>Social marketing</a>
+									<a href="jobs.html"><i class="icon icon-gift"></i>Event activation</a>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <footer>Copyright &copy; 2020
-    </footer>
-  </main>
-</div>
-</body>
+    <!-- Welcome features area End -->
+	<!-- Team area start -->	
+        <div class="team-area area-padding">
+            <div class="container">
+                <!-- section head -->
+                <div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="section-head text-center">
+						    <h3>Expert <span class="color">Teams</span></h3>
+						    <p>I am always passionate about website development. Love provide great client support. If you want any work please contact us</p>
+						</div>
+					</div>
+				</div>
+                <div class="row">
+                    <div class="team-member page-team-member">
+                        <div class="col-md-3 col-sm-4">
+                            <div class="single-member">
+                                <div class="team-img">
+                                    <a href="jobs.html">
+                                        <img src="img/team/1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="team-content text-center">
+                                    <h4><a href="#">Jackobs</a></h4>
+                                    <p>Co-Founder</p>
+                                    <ul class="social-icon">
+                                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- team member-->
+                        <div class="col-md-3 col-sm-4">
+                            <div class="single-member">
+                                <div class="team-img">
+                                    <a href="#">
+                                        <img src="img/team/2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="team-content text-center">
+                                    <h4><a href="#">Janelia</a></h4>
+                                    <p>web developer</p>
+                                    <ul class="social-icon">
+                                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- team member-->
+                        <div class="col-md-3 col-sm-4">
+                            <div class="single-member">
+                                <div class="team-img">
+                                    <a href="#">
+                                        <img src="img/team/3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="team-content text-center">
+                                    <h4><a href="#">Polwall</a></h4>
+                                    <p>Software developer</p>
+                                    <ul class="social-icon">
+                                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- team member-->
+                        <div class="col-md-3 hidden-sm">
+                            <div class="single-member">
+                                <div class="team-img">
+                                    <a href="#">
+                                        <img src="img/team/4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="team-content text-center">
+                                    <h4><a href="#">Shopiea</a></h4>
+                                    <p>Software developer</p>
+                                    <ul class="social-icon">
+                                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- team member-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- team area end -->
+		<!--Blog Area Start-->
+        <div id="blog" class="blog-main-area area-padding">
+            <div class="container">
+                <div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="section-head text-center">
+						    <h3>Latest <span class="color">News</span></h3>
+						    <p>I am always passionate about website development. Love provide great client support. If you want any work please contact us</p>
+						</div>
+					</div>
+				</div>
+                <div class="row">
+                    <div class="blog-grid">
+                        <!-- Start single blog -->
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-blog">
+                                <div class="blog-image">
+                                    <a class="image-scale" href="#">
+                                        <img src="img/blog/b1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="blog-content">
+                                   <div class="blog-title">
+                                       <div class="blog-meta">
+                                            <span class="date-type">
+                                                21 jan, 2018
+                                            </span>
+                                            <span class="comments-type">
+                                                <i class="fa fa-comment-o"></i>
+                                                13
+                                            </span>
+                                        </div>
+                                        <a href="#">
+                                            <h4>platform with token investment</h4>
+                                        </a>
+                                    </div>
+                                    <div class="blog-text">
+                                        <p>Redug Lagre dolor sit amet, consectetur adipisicing elit. Minima in nostrum, veniam. Esse est assumenda inventore.</p>
+                                        <a class="blog-btn" href="#">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End single blog -->
+                        <!-- Start single blog -->
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-blog">
+                                <div class="blog-image">
+                                    <a class="image-scale" href="#">
+                                        <img src="img/blog/b2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="blog-content">
+                                   <div class="blog-title">
+                                       <div class="blog-meta">
+                                            <span class="date-type">
+                                                12 Feb, 2018
+                                            </span>
+                                            <span class="comments-type">
+                                                <i class="fa fa-comment-o"></i>
+                                                13
+                                            </span>
+                                        </div>
+                                        <a href="#">
+                                            <h4>Powered online business</h4>
+                                        </a>
+                                    </div>
+                                    <div class="blog-text">
+                                        <p>Redug Lagre dolor sit amet, consectetur adipisicing elit. Minima in nostrum, veniam. Esse est assumenda inventore.</p>
+                                        <a class="blog-btn" href="#">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End single blog -->
+                        <!-- Start single blog -->
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="single-blog">
+                                <div class="blog-image">
+                                    <a class="image-scale" href="#">
+                                        <img src="img/blog/b3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="blog-content">
+                                   <div class="blog-title">
+                                       <div class="blog-meta">
+                                            <span class="date-type">
+                                                20 May, 2018
+                                            </span>
+                                            <span class="comments-type">
+                                                <i class="fa fa-comment-o"></i>
+                                                13
+                                            </span>
+                                        </div>
+                                        <a href="#">
+                                            <h4>The world's Latest blockchain</h4>
+                                        </a>
+                                    </div>
+                                    <div class="blog-text">
+                                        <p>Redug Lagre dolor sit amet, consectetur adipisicing elit. Minima in nostrum, veniam. Esse est assumenda inventore.</p>
+                                        <a class="blog-btn" href="#">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End single blog -->
+                    </div>
+                </div>
+                <!-- End row -->
+            </div>
+        </div>
+        <!--End of Blog Area-->
+	<!-- Start contact Area -->
+	<div class="highlight">
+        <div id="contact" class="contact-page area-padding">
+            <div class="container">
+               <div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="section-head text-center">
+						    <h3>Contact <span class="color">us</span></h3>
+						    <p>I am always passionate about website development. Love provide great client support. If you want any work please contact us</p>
+						</div>
+					</div>
+				</div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="contact-head">
+                            <h3>Request a Contact us</h3>
+                            <p>Water The universal acceptance of website has given a tremendous opportunity for merchants to do crossborder transactions instantly and at reduced cost.</p>
+                            <div class="contact-icon">
+								<div class="single-contact">
+									<h5>Location :</h5>
+									<a href="#"><i class="fa fa-map"></i><span>Road-7 old Street, Manhatan</span></a>
+									<a href="#"><i class="fa fa-phone"></i><span>+132-6565 7654</span></a>
+									<a href="#"><i class="fa fa-envelope"></i><span>samual@ofoffice.com</span></a>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                    <!-- End contact icon -->
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="contact-form">
+                            <div class="row">
+                                <form id="contactForm" method="POST" class="contact-form">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <input type="text" id="msg_subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <textarea id="message" rows="7" placeholder="Massage" class="form-control" required data-error="Write your message"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                                        <button type="submit" id="submit" class="contact-btn">Submit</button>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                                        <div class="clearfix"></div>
+                                    </div>   
+                                </form>  
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End contact Form -->
+                </div>
+            </div>
+        </div>
+	</div>
+        <!-- Start Footer Area -->
+        <footer>
+            <div class="footer-top-area area-padding">
+                <div class="container">
+                    <div class="row">
+                       <div class="col-md-12 col-sm-12 col-xs-12">
+                          <div class="footer-content text-center">
+								<div class="single-footer">
+									<div class="footer-logo text-center">
+										<a href="index.html"><img src="img/logo/gta-logo.png" alt="LOGO" height="46" width="140"></a>
+										<p>I am always passionate about website development. Love provide great client support.</p>
+									</div>
+								</div>
+								<div class="footer-social">
+									<ul class="social-link">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+										<li><a href="#"><i class="fa fa-google"></i></a></li>
+										<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+										<li><a href="#"><i class="fa fa-rss"></i></a></li>
+									</ul>
+								</div>
+								<div class="copyright">
+									<p>
+										Nguyen Sang © 2020
+									</p>
+								</div>
+							</div>	
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+	</body>
 </html>
-
-
